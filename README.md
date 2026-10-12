@@ -16,8 +16,13 @@ It doesn't record trips. Recording stays on the phone.
 
 ## Download
 
-**[Download the latest version](https://github.com/nomadtrafficapp-ship-it/nomad-desktop-releases/releases/latest)**.
-On that page, under *Assets*, choose `nomad_desktop-<version>-setup.exe`.
+**[Download the latest version](https://github.com/nomadtrafficapp-ship-it/nomad-desktop-releases/releases/latest/download/nomad-desktop-setup.exe)**:
+`nomad-desktop-setup.exe`, which is always the newest version. The short
+link to share is **nomadtrafficapp-ship-it.github.io/desktop**.
+
+Every release is also listed on the
+[releases page](https://github.com/nomadtrafficapp-ship-it/nomad-desktop-releases/releases),
+with notes and checksums.
 
 You need **Windows 10 or 11, 64-bit**.
 
@@ -54,6 +59,9 @@ folder to the PC. In the desktop app, click **Import database**.
   `%APPDATA%\com.nomad\N.O.M.A.D Desktop`. Nothing is uploaded anywhere.
 - Like the phone app, it looks up map tiles and road details from
   OpenStreetMap services (OpenStreetMap, OSRM, Overpass).
+- To look for updates it asks GitHub for the latest release, at most twice
+  a day (you can turn this off in About). Nothing about you or your trips
+  is sent.
 - The PC only accepts trips while the **Receive** page is open, and only
   from a phone that has entered the pairing code shown on screen. Use it on
   networks you trust, such as home or your phone's hotspot.
@@ -62,8 +70,14 @@ folder to the PC. In the desktop app, click **Import database**.
 
 ## Update
 
-Download and run the new `setup.exe`. It upgrades the installed copy and
-keeps your trips.
+From version 0.2.2 the app **updates itself**. When a new version is out,
+a bar at the top of the window offers it. Click **Update now** and the app
+downloads it, checks it against its published checksum, then closes,
+installs and reopens. Your trips are kept. You can also check from
+**About → Check for updates**, and turn automatic checks off there.
+
+On **0.2.1**, download and run the new `setup.exe` once. It upgrades the
+installed copy, keeps your trips, and later updates arrive automatically.
 
 ## Uninstall
 
