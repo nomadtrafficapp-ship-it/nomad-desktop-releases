@@ -68,6 +68,9 @@ folder to the PC. In the desktop app, click **Import database**.
 - Importing replaces the trips loaded on the PC. The previous set is kept
   in the `backups` folder inside the data folder.
 
+The full details are in the
+[privacy policy](https://nomadtrafficapp-ship-it.github.io/nomad-privacy-policy/#desktop).
+
 ## Update
 
 From version 0.2.2 the app **updates itself**. When a new version is out,
