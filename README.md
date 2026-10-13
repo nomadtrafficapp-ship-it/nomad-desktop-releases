@@ -44,11 +44,13 @@ pairing code the PC shows.
 - **Wi-Fi:** the phone and PC must be on the same network. The first time,
   Windows may ask whether to allow N.O.M.A.D Desktop on the network; allow
   it on **private** networks.
-- **USB cable:** connect the phone with USB debugging turned on (Android
-  Developer options) and choose **USB cable with USB debugging** on the
-  phone. The PC also needs Android's platform-tools (`adb`) installed. The
-  phone's plain **USB cable** option, which uses File transfer and needs no
-  debugging, will work with a coming desktop version.
+- **USB cable:** plug the phone in, choose **File transfer** in the
+  phone's USB notification, and choose **USB cable** on the phone. This
+  works anywhere in the app, not only on Receive. The PC picks the trips
+  up, checks them and asks before importing, then removes them from the
+  phone. It needs desktop 0.3.1 and phone app 1.5.1 or later.
+- **USB cable with USB debugging:** for phones with Android Developer
+  options turned on. The PC also needs Android's platform-tools (`adb`).
 
 Send to desktop needs a version of the phone app that has it. With an older
 phone app, use the next option.
@@ -66,9 +68,13 @@ folder to the PC. In the desktop app, click **Import database**.
 - To look for updates it asks GitHub for the latest release, at most twice
   a day (you can turn this off in About). Nothing about you or your trips
   is sent.
-- The PC only accepts trips while the **Receive** page is open, and only
-  from a phone that has entered the pairing code shown on screen. Use it on
-  networks you trust, such as home or your phone's hotspot.
+- Over Wi-Fi or USB debugging, the PC only accepts trips while the
+  **Receive** page is open, and only from a phone that has entered the
+  pairing code shown on screen. Use Wi-Fi on networks you trust, such as
+  home or your phone's hotspot.
+- With a phone plugged in on **File transfer**, the app looks only in the
+  phone's `Download/Nomad/Desktop` folder, asks before importing what it
+  finds there, and removes it from the phone after importing.
 - Importing adds new trips to the *Imported* library. Trips already on the
   PC are kept as they are, names and libraries included. The library is
   backed up before each import, in the `backups` folder inside the data
