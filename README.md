@@ -10,6 +10,8 @@ trips off the phone, then on a big screen:
 - **compare** trips on the same route (up to 8 at once), section by section,
   to see exactly where one run was faster or slower than another, over the
   whole route or any stretch of it
+- organise trips into **project libraries**, for example one per route audit:
+  new trips arrive in *Imported*, and you move them into the right library
 - export trips and comparisons to CSV, Excel or GPX
 
 It doesn't record trips. Recording stays on the phone.
@@ -43,8 +45,10 @@ pairing code the PC shows.
   Windows may ask whether to allow N.O.M.A.D Desktop on the network; allow
   it on **private** networks.
 - **USB cable:** connect the phone with USB debugging turned on (Android
-  Developer options). The PC also needs Android's platform-tools (`adb`)
-  installed.
+  Developer options) and choose **USB cable with USB debugging** on the
+  phone. The PC also needs Android's platform-tools (`adb`) installed. The
+  phone's plain **USB cable** option, which uses File transfer and needs no
+  debugging, will work with a coming desktop version.
 
 Send to desktop needs a version of the phone app that has it. With an older
 phone app, use the next option.
@@ -65,8 +69,10 @@ folder to the PC. In the desktop app, click **Import database**.
 - The PC only accepts trips while the **Receive** page is open, and only
   from a phone that has entered the pairing code shown on screen. Use it on
   networks you trust, such as home or your phone's hotspot.
-- Importing replaces the trips loaded on the PC. The previous set is kept
-  in the `backups` folder inside the data folder.
+- Importing adds new trips to the *Imported* library. Trips already on the
+  PC are kept as they are, names and libraries included. The library is
+  backed up before each import, in the `backups` folder inside the data
+  folder.
 
 The full details are in the
 [privacy policy](https://nomadtrafficapp-ship-it.github.io/nomad-privacy-policy/#desktop).
