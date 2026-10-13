@@ -7,9 +7,11 @@ trips off the phone, then on a big screen:
 
 - browse every trip: map, speed and acceleration charts, segments, signal
   delays and congestion, harsh braking, and the time-distance diagram
-- **compare** trips on the same route (up to 8 at once), section by section,
+- **compare** trips on the same route (up to 32 at once), section by section,
   to see exactly where one run was faster or slower than another, over the
   whole route or any stretch of it
+- **find every trip that drove a stretch of road** in the same direction,
+  wherever it started or finished, for route audits
 - organise trips into **project libraries**, for example one per route audit:
   new trips arrive in *Imported*, and you move them into the right library
 - export trips and comparisons to CSV, Excel or GPX
@@ -39,8 +41,8 @@ You need **Windows 10 or 11, 64-bit**.
 ## Get your trips onto the PC
 
 **Straight from the phone (recommended).** On the PC, open **Receive**. On the
-phone, open **Settings → Send to desktop**, choose your PC, and type the
-pairing code the PC shows.
+phone, open **Export → Send to desktop** (in **Settings** on phone app 1.5.1
+and earlier), choose your PC, and type the pairing code the PC shows.
 - **Wi-Fi:** the phone and PC must be on the same network. The first time,
   Windows may ask whether to allow N.O.M.A.D Desktop on the network; allow
   it on **private** networks.
@@ -55,9 +57,9 @@ pairing code the PC shows.
 Send to desktop needs a version of the phone app that has it. With an older
 phone app, use the next option.
 
-**Or from an exported file.** On the phone, use **Settings → Export
-database** and copy the `.sqlite` file from the phone's `Downloads/Nomad`
-folder to the PC. In the desktop app, click **Import database**.
+**Or from an exported file.** On the phone, use **Export → Export database**
+(in **Settings** on phone app 1.5.1 and earlier) and copy the `.sqlite` file
+from the phone's `Downloads/Nomad` folder to the PC. In the desktop app, click **Import database**.
 
 ## Your data
 
