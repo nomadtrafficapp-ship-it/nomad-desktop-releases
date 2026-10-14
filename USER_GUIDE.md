@@ -1,6 +1,6 @@
 # N.O.M.A.D Desktop user guide
 
-This guide is for **N.O.M.A.D Desktop 0.5.3**. In the app, **About** shows
+This guide is for **N.O.M.A.D Desktop 0.5.4**. In the app, **About** shows
 which version you have.
 
 N.O.M.A.D Desktop is the Windows companion to the N.O.M.A.D phone app. The
@@ -268,7 +268,10 @@ stretch there.
   acceleration set separately).
 - **Appearance**: **System**, **Light** or **Dark**.
 - **Traffic signal datasets**: the regional signal datasets used to name
-  signals and crossings when a trip is checked.
+  signals and crossings when a trip is checked. They are refreshed
+  automatically once a week from the government open-data portals (when the
+  app opens), so newly commissioned signals are picked up without a new
+  version; the screen shows when each was last updated.
 - **Segment splitting**: whether long moving stretches are split **By road**
   (at each change of road) or **By signal/crossing** (at each signal and
   crossing passed, and at a turn onto another road that the map confirms).
@@ -276,7 +279,9 @@ stretch there.
 - **Trip details**: how many trips still have road names, cross streets or
   signals to look up; **Resolve now** looks them all up online
   (OpenStreetMap's Overpass and Nominatim, OSRM, and Valhalla when Overpass
-  is unavailable).
+  is unavailable). It can take a few minutes per trip; **Stop** ends it
+  early. If some trips can't be checked, it says how many and why — the
+  rest are still saved — so run it again later for those.
 - **Export trips**: a zip of every trip's CSV, XLSX and GPX — the last 7, 30,
   90, 180 or 365 days, or all trips — saved to `Downloads\Nomad`.
 - **Delete trips**: remove trips older than 30, 90, 180 or 365 days from this
