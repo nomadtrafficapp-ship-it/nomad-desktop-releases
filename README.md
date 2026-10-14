@@ -18,6 +18,9 @@ trips off the phone, then on a big screen:
 
 It doesn't record trips. Recording stays on the phone.
 
+**New to it?** The [user guide](USER_GUIDE.md) walks through every page, and
+is updated with every version.
+
 ## Download
 
 **[Download the latest version](https://github.com/nomadtrafficapp-ship-it/nomad-desktop-releases/releases/latest/download/nomad-desktop-setup.exe)**:
