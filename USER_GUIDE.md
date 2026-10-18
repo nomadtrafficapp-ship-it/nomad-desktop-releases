@@ -1,6 +1,6 @@
 # N.O.M.A.D Desktop user guide
 
-This guide is for **N.O.M.A.D Desktop 0.5.4**. In the app, **About** shows
+This guide is for **N.O.M.A.D Desktop 0.5.5**. In the app, **About** shows
 which version you have.
 
 N.O.M.A.D Desktop is the Windows companion to the N.O.M.A.D phone app. The
@@ -136,7 +136,8 @@ Three panes, left to right: libraries, the trip list, and the selected trip.
 Click a trip to open its details, the same screen as on the phone:
 
 - a summary (distance, speeds, acceleration, moving and stopped time, time in
-  congestion);
+  congestion), and for trips recorded with N.O.M.A.D 1.5.5 or later, which
+  version recorded it (*Recorded with N.O.M.A.D …*);
 - the **route map**, with a playback slider;
 - **Speed over time** and **Acceleration over time** charts;
 - **Segments** — the trip split into moving and stopped parts, with roads,
@@ -331,6 +332,9 @@ and libraries are kept. **About → Check for updates** checks straight away.
   networks, or enter an address shown on the Receive page into the phone.
 - **The phone on a USB cable isn't picked up** — unlock it and choose **File
   transfer** (not *Charging only*) in its USB notification.
+- **The phone says to update the desktop** — the phone has a newer version
+  than this app can read. Update this app (**About → Check for updates**),
+  then send again.
 - **Trips show details still to resolve** — the online map services may be
   busy; use **Settings → Trip details → Resolve now** later.
 - **A trip is missing from a comparison's charts** — it didn't drive the
