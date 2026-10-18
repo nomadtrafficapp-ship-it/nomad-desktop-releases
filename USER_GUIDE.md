@@ -1,6 +1,6 @@
 # N.O.M.A.D Desktop user guide
 
-This guide is for **N.O.M.A.D Desktop 0.5.5**. In the app, **About** shows
+This guide is for **N.O.M.A.D Desktop 0.5.6**. In the app, **About** shows
 which version you have.
 
 N.O.M.A.D Desktop is the Windows companion to the N.O.M.A.D phone app. The
@@ -187,15 +187,20 @@ last checkpoint every trip passed. To measure part of the route only:
 on screen while you pick.
 
 **Find trips on this stretch…** lists every trip in the library (or in one
-library — **Search in**) that drove the stretch end to end in the same
-direction, wherever it started or finished. A trip counts when it passed
-within 35 m of at least 90% of the stretch, heading the same way, in order,
-and was on it at both ends. Tick the ones you want and **Add to comparison**,
-or **Move to library…** to collect them for a route study.
+library — **Search in**) that drove the stretch end to end, wherever it
+started or finished. **Direction** chooses **Same way** (the baseline's) or
+**Other way** — trips that drove it in the opposite direction, for a two-way
+time-distance diagram. A trip counts when it passed within 35 m of at least
+90% of the stretch, heading that way, in order, and was on it at both ends.
+Tick the ones you want and **Add to comparison**, or **Move to library…** to
+collect them for a route study.
 
 Notes above the summary list any trip that didn't drive the compared span
-(left off the charts) or took a different road for part of it (its time is
-then an end-to-end time, not one over the same road).
+(left off the charts), took a different road for part of it (its time is
+then an end-to-end time, not one over the same road), or drove it the other
+way. Trips the other way don't change the common span; they appear only on
+the time-distance diagram with **Two way** — the tables and the speed chart
+are in the baseline's direction.
 
 ### Summary
 
@@ -212,7 +217,20 @@ flat runs are stops. Vertical lines mark the checkpoints, named above the
 chart with their number (as on the map and in the tables), signal or crossing
 and cross street.
 
-**Line up trips on** sets each trip's 0:00:
+**Directions** chooses **One way** (the baseline's direction) or **Two way**,
+to check **two-way coordination**: the trips that drove the stretch the other
+way are added, running back along the same distances from right to left, and
+marked "(other way)" in the legend. Choosing **Two way** finds them for you:
+every trip that drove the stretch end to end the other way and isn't in the
+comparison yet is added (the most recent first, up to the 32-trip limit), and
+a message says how many, with **Undo**. After changing the stretch, **Add
+trips the other way** looks again. To pick them one by one instead, use
+**Find trips on this stretch…**, **Other way**.
+
+**Line up trips on** sets each trip's 0:00. With **Two way**, each direction
+is lined up on its own first signal: the first checkpoint of the stretch for
+the baseline's direction, the last one for the other way (the buttons name
+both):
 
 - **Moving off at checkpoint N** — when the trip moved off from its last stop
   before the first signal of the stretch, about when that signal turned green
@@ -237,6 +255,11 @@ A single trip shows the queue when it arrived — the queue may have grown
 behind it — so the longest queue across many trips is the best estimate of
 the maximum.
 
+With **Two way**, the other direction's queues are measured the same way
+before its first signal, and its lines start at the back of its longest
+queue, plus 50 m, beyond the end of the stretch (marked above the chart) —
+as far as the baseline's own route goes past that end.
+
 **Tick trips in the legend** to pick them out: ticked trips are drawn on top
 and thicker on every chart and on the map, and the rest fade. **Show all**
 clears the ticks.
@@ -245,6 +268,26 @@ clears the ticks.
 
 GPS speed along the baseline's route, every trip overlaid, lined up by
 distance.
+
+### Zooming and resizing the charts
+
+Both charts zoom the same way:
+
+- **Drag across a chart** to zoom into the area you mark out.
+- **Ctrl + mouse wheel** zooms in or out around the pointer (the wheel on its
+  own still scrolls the page).
+- **Shift + drag** moves around while zoomed in.
+- **Double-click**, or **Reset zoom**, shows the whole chart again; the
+  magnifier buttons zoom in and out on the middle.
+
+Checkpoint lines and names follow the zoom. A zoom stays while you scroll
+the page, and goes back to the whole chart when the stretch, line-up or trips
+change.
+
+Drag the **bar under a chart** to make it taller or shorter (double-click
+the bar to reset). On a wide window the two charts sit side by side —
+**Full width** puts each across the whole page, one above the other, and
+**Side by side** puts them back; the divider between them sets their widths.
 
 ### Section times
 
@@ -302,10 +345,16 @@ and libraries are kept. **About → Check for updates** checks straight away.
 
 - **Drag a divider** between panes, or the grip under a chart or map, to
   resize it; **double-click** it to reset. Sizes are remembered.
+- **Full width / Side by side** on the Compare charts; charts also zoom (see
+  [Zooming and resizing the charts](#zooming-and-resizing-the-charts)).
 - **Collapse a section** on the Compare page with the **⌃** at its top
   right.
 - Wide tables scroll sideways; long names are shortened with "…" and shown in
   full on hover.
+- With Windows' larger text sizes (**Settings → Accessibility → Text
+  size**), panes and table rows grow to fit: on a smaller screen the
+  libraries fold into the strip at the left of Trips (**›** opens them), and
+  the Compare charts sit one above the other instead of side by side.
 
 ## Glossary
 
