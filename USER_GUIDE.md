@@ -1,6 +1,6 @@
 # N.O.M.A.D Desktop user guide
 
-This guide is for **N.O.M.A.D Desktop 0.5.6**. In the app, **About** shows
+This guide is for **N.O.M.A.D Desktop 0.5.7**. In the app, **About** shows
 which version you have.
 
 N.O.M.A.D Desktop is the Windows companion to the N.O.M.A.D phone app. The
@@ -255,6 +255,13 @@ A single trip shows the queue when it arrived — the queue may have grown
 behind it — so the longest queue across many trips is the best estimate of
 the maximum.
 
+**Offset the other way by** (with **Two way**) shifts every trip the other
+way later (+) or earlier (−) by the seconds you type or step (−5, −1, +1,
++5), so the two directions can be lined up on the real offset between their
+signals. A dashed **Other way 0:00** line marks where their clock now starts;
+**Reset** sets it back to 0. The offset is remembered, and a zoom stays put
+while you change it, so you can watch the lines line up close in.
+
 With **Two way**, the other direction's queues are measured the same way
 before its first signal, and its lines start at the back of its longest
 queue, plus 50 m, beyond the end of the stretch (marked above the chart) —
@@ -279,10 +286,18 @@ Both charts zoom the same way:
 - **Shift + drag** moves around while zoomed in.
 - **Double-click**, or **Reset zoom**, shows the whole chart again; the
   magnifier buttons zoom in and out on the middle.
+- **Hovering** shows the time (or speed) of the lines right under the
+  pointer. **Hover readings** turns that off for both charts, to see them
+  clearly while zooming and moving about.
 
 Checkpoint lines and names follow the zoom. A zoom stays while you scroll
-the page, and goes back to the whole chart when the stretch, line-up or trips
-change.
+the page or change the other way's offset, and goes back to the whole chart
+when the stretch, line-up or trips change.
+
+**Save PNG…** saves the chart as you see it — zoomed or not — with its
+legend and checkpoint names, as a PNG with a transparent background at three
+times the size on screen, ready to drop into a report. It is always drawn in
+the light theme, so the text reads on a white page.
 
 Drag the **bar under a chart** to make it taller or shorter (double-click
 the bar to reset). On a wide window the two charts sit side by side —
