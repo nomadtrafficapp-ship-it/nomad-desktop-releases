@@ -54,8 +54,6 @@ and earlier), choose your PC, and type the pairing code the PC shows.
   works anywhere in the app, not only on Receive. The PC picks the trips
   up, checks them and asks before importing, then removes them from the
   phone. It needs desktop 0.3.1 and phone app 1.5.1 or later.
-- **USB cable with USB debugging:** for phones with Android Developer
-  options turned on. The PC also needs Android's platform-tools (`adb`).
 
 Send to desktop needs a version of the phone app that has it. With an older
 phone app, use the next option.
@@ -73,7 +71,7 @@ from the phone's `Downloads/Nomad` folder to the PC. In the desktop app, click *
 - To look for updates it asks GitHub for the latest release, at most twice
   a day (you can turn this off in About). Nothing about you or your trips
   is sent.
-- Over Wi-Fi or USB debugging, the PC only accepts trips while the
+- Over Wi-Fi, the PC only accepts trips while the
   **Receive** page is open, and only from a phone that has entered the
   pairing code shown on screen. Use Wi-Fi on networks you trust, such as
   home or your phone's hotspot.

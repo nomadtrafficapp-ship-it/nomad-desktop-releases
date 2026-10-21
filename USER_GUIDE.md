@@ -1,6 +1,6 @@
 # N.O.M.A.D Desktop user guide
 
-This guide is for **N.O.M.A.D Desktop 0.5.7**. In the app, **About** shows
+This guide is for **N.O.M.A.D Desktop 0.5.8**. In the app, **About** shows
 which version you have.
 
 N.O.M.A.D Desktop is the Windows companion to the N.O.M.A.D phone app. The
@@ -78,12 +78,6 @@ No setup needed on the phone.
 
 If Windows asks whether to allow N.O.M.A.D Desktop on the network, allow it
 on **private** networks.
-
-### USB cable with USB debugging
-
-For phones with Developer options' USB debugging turned on, and a PC with
-Android platform-tools (adb) installed. Keep the **Receive** page open, plug
-the phone in, and on the phone choose **USB cable with USB debugging**.
 
 ### A database file
 
