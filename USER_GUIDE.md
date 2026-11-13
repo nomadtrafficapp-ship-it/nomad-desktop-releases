@@ -1,6 +1,6 @@
 # N.O.M.A.D Desktop user guide
 
-This guide is for **N.O.M.A.D Desktop 0.5.9**. In the app, **About** shows
+This guide is for **N.O.M.A.D Desktop 0.5.10**. In the app, **About** shows
 which version you have.
 
 N.O.M.A.D Desktop is the Windows companion to the N.O.M.A.D phone app. The
